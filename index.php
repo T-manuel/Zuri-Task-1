@@ -40,7 +40,7 @@ $telephone = getenv("phone");
                 <ul>
                     <li>
                         <img src = "svg/slack-24.svg" alt = "slack" class = "icon"/> 
-                        <span  class = "contactLinks"> T_manuel </span>
+                        <span  class = "contactLinks"> T_manuel <?php echo $telephone ?> </span>
                     </li>
 
                     <li>
