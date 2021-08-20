@@ -1,0 +1,290 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Lato, Montserrat;
+}
+
+body {
+  color: #ddd;
+}
+
+#mainDiv {
+  width: 96%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+#mainDiv .nameDiv {
+  padding: 3px;
+}
+
+#mainDiv .nameDiv .hr {
+  border: 1px thin #001013;
+  border-radius: 3px;
+  transform: rotate(90deg);
+  width: 80px;
+}
+
+#mainDiv .nameDiv .secondhr {
+  margin-top: 50px;
+}
+
+#mainDiv .nameDiv .maincontainer .name {
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+#mainDiv .nameDiv .maincontainer .name #surname {
+  color: #003f34;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  font-weight: 600;
+}
+
+#mainDiv .nameDiv .maincontainer .name #firstName {
+  text-transform: uppercase;
+  color: #000;
+  margin-top: 20px;
+  letter-spacing: 25px;
+}
+
+#mainDiv .nameDiv .maincontainer .imgcontainer .manu {
+  display: none;
+}
+
+#mainDiv .candp {
+  margin-top: 50px;
+  margin-left: 30px;
+  padding: 10px;
+}
+
+#mainDiv .candp .container .head {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 550;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+#mainDiv .candp .container .profile {
+  margin-top: 30px;
+}
+
+#mainDiv .candp .container .thirdhr {
+  width: 50px;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+#mainDiv .candp .container ul {
+  padding-left: 30px;
+  margin-top: 20px;
+}
+
+#mainDiv .candp .container ul li {
+  list-style-type: none;
+  padding: 5px 3px;
+  font-size: 15px;
+}
+
+#mainDiv .candp .container ul li .icon {
+  vertical-align: middle;
+}
+
+#mainDiv .candp .container ul li .contactLinks {
+  color: black;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+#mainDiv .candp .container ul li a:hover {
+  color: #003f34;
+}
+
+#mainDiv .candp .container .profileTexts {
+  color: black;
+  margin-top: 15px;
+  padding: 5px 5px;
+  font-size: 13px;
+  font-weight: 450;
+}
+
+#mainDiv .candp .container .profileTexts a {
+  color: red;
+  text-decoration: none;
+  border-bottom: 2px dotted red;
+}
+
+#mainDiv .candp .container .profileTexts br {
+  margin-bottom: 10px;
+}
+
+#secondMain {
+  background: #003f34;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+#secondMain .sandh .skillsDiv .head {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 550;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+#secondMain .sandh .skillsDiv .thirdhr {
+  width: 50px;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+#secondMain .sandh .skillsDiv .skills {
+  padding: 4px 10px;
+  margin: 14px;
+}
+
+#secondMain .sandh .skillsDiv .skills .skill-item {
+  font-size: 14px;
+}
+
+#secondMain .sandh .skillsDiv .skills .ProgressBar {
+  -webkit-appearance: none;
+  width: 250px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: white;
+}
+
+#secondMain .sandh .skillsDiv .skills .ProgressBar::-webkit-progress-bar {
+  background: #04484d;
+  border-radius: 10px;
+}
+
+#secondMain .sandh .skillsDiv .skills .ProgressBar::-webkit-progress-value {
+  background: #04484d;
+  border-radius: 10px;
+}
+
+#secondMain .sandh .skillsDiv .skills .ProgressBar::-moz-progress-bar {
+  background: #04484d;
+  border-radius: 10px;
+}
+
+#secondMain .sandh .HobbyContainer {
+  margin-bottom: 20px;
+}
+
+#secondMain .sandh .HobbyContainer .head {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 550;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+#secondMain .sandh .HobbyContainer .thirdhr {
+  width: 50px;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+#secondMain .sandh .HobbyContainer ul {
+  margin-left: 10px;
+}
+
+#secondMain .sandh .HobbyContainer ul li {
+  list-style-type: disc;
+  padding: 10px;
+  margin-left: 20px;
+  text-transform: capitalize;
+}
+
+.internShipCoy {
+  display: grid;
+  grid-auto-flow: column;
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 80px;
+  height: 200px;
+}
+
+.internShipCoy .zuri {
+  width: 100%;
+}
+
+.internShipCoy .hng {
+  width: 100%;
+}
+
+#footerText {
+  margin-top: 130px;
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media all and (min-width: 600px) {
+  #mainDiv {
+    width: 95%;
+    margin: auto;
+  }
+  #mainDiv .nameDiv .maincontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    max-height: 150px;
+  }
+  #mainDiv .nameDiv .maincontainer .name {
+    margin-top: 60px;
+    margin-left: 30px;
+  }
+  #mainDiv .nameDiv .maincontainer .name #surname {
+    color: #003f34;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-weight: 600;
+  }
+  #mainDiv .nameDiv .maincontainer .name #firstName {
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 20px;
+    letter-spacing: 25px;
+  }
+  #mainDiv .nameDiv .maincontainer .imgcontainer .manu {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+    max-height: 140px;
+  }
+}
+
+@media all and (min-width: 850px) {
+  .candp {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 250px;
+  }
+  .candp .Profile {
+    max-width: 393px;
+  }
+  .candp .Profile .profileTexts {
+    width: 100%;
+  }
+  .sandh {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+  }
+  .sandh .HobbyContainer {
+    align-self: center;
+  }
+}
