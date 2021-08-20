@@ -50,7 +50,7 @@ $telephone = getenv("phone");
 
                     <li>
                         <img src = "svg/telephone.svg" alt = "telephone" class = "icon"/>
-                        <a href = "tel: '<?php $telephone; ?>'" class = "contactLinks"> click-to-call <? php echo $telephone; ?> </a>
+                        <a href = "tel: '<?php $telephone ?>'" class = "contactLinks"> click-to-call <? php echo $telephone ?> </a>
                     </li>
                 </ul>
             </div>
