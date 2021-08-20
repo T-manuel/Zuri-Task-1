@@ -40,7 +40,7 @@ $telephone = getenv("phone");
                 <ul>
                     <li>
                         <img src = "svg/slack-24.svg" alt = "slack" class = "icon"/> 
-                        <span  class = "contactLinks"> T_manuel <?php echo("hi"); ?> </span>
+                        <span  class = "contactLinks"> T_manuel </span>
                     </li>
 
                     <li>
@@ -50,7 +50,7 @@ $telephone = getenv("phone");
 
                     <li>
                         <img src = "svg/telephone.svg" alt = "telephone" class = "icon"/>
-                        <a href = "tel:<?php $telephone ?>" class = "contactLinks"> click-to-call </a>
+                        <a href = <?php $telephone ?> class = "contactLinks"> click-to-call </a>
                     </li>
                 </ul>
             </div>
