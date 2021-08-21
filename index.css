@@ -271,7 +271,7 @@ body {
     display: grid;
     grid-auto-flow: column;
     justify-content: center;
-    gap: 250px;
+    gap: 220px;
   }
   .candp .Profile {
     max-width: 393px;
