@@ -159,7 +159,7 @@ body {
 }
 
 #secondMain .sandh .skillsDiv .skills .ProgressBar::-webkit-progress-bar {
-  background: #04484d;
+  background: #fff;
   border-radius: 10px;
 }
 
